@@ -1,0 +1,61 @@
+body{
+	background-image: url("../img/fondo.jpg");
+	font-family: "calibri"
+}
+.img{
+	display: flex;
+	width: 20vw;
+	height: 50vh;
+	padding: 20px;
+	margin: auto;
+	margin-top: 30px;
+	justify-content: center;
+}
+.logo{
+	width: 50%;
+	height: 30%;
+}
+h5{
+	font-weight: bold;
+	color: black;
+}
+.texto{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.parrafo{
+	margin-left: 10px;
+	font-family: arial;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	
+}
+.titulo{
+	margin-left: 10px;
+	margin-top: 20px;
+	text-decoration: underline;
+	padding: 10px;
+	font-family: roboto;
+}
+.bg-orange{
+	background-color: orange;
+	border: 3px #FFE690 solid;
+}
+.nav{
+	justify-content: right;
+}
+.contacto{
+	width:50%;
+	padding: 30px;
+}
+.centro{
+	align-content: center;
+}
+.colores{
+	background-image: linear-gradient(to right, orange, #FFE690 );
+}
+
+
