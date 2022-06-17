@@ -57,5 +57,94 @@ h5{
 .colores{
 	background-image: linear-gradient(to right, orange, #FFE690 );
 }
+.texto-izquierdo{
+ 	text-align: left;
+ 	font-family: arial;
+ 	font-size: 15px;
+ 	font-weight: bold;
+ 	color: black;
+ 	padding: 21px;
+}
+.minititulo{
+	text-align: left;
+ 	font-family: arial;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	color: black;
+ 	text-decoration: underline;
+ 	padding: 20px;
+ }
+.cursos{
+	color: white;
+}
+.table{
+	width:40%;
+	background-color: #FFE690;
+	text-align: left;
+	border-style: solid;
+	border-color: #FFC600;
+	align-content: center;
+	
+}
+.contacto{
+		background: rgba(0, 0, 0, 0.5); 
+	padding: 10px 20px;
+	margin-top: 50px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	justify-content: center;
+}
+.section2{
+	
+	
+	
+
+}
+
+.img{
+	width: 20vw;
+	height: 50vh;
+	justify-content: center;
+}
+
+@media screen and (max-width:1024px){
+	.img{
+	width: 300px;
+	height: 450px;
+}
 
 
+
+
+@media screen and (max-width: 768px){
+
+
+
+}
+
+
+
+
+@media screen and (max-width:480px){
+
+.mapa{ width: 100%;
+
+}
+.contacalo{
+	width: 100vw;
+}
+.img{
+
+	width: 100vw;
+	height: vh;
+	
+}
+
+
+
+@media screen and (max-width:320px){
+
+
+
+
+}
