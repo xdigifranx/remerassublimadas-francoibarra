@@ -3,88 +3,72 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>remeras sublimadas</title>
-    <link rel="icon" href="../img/favicon.ico">
+	<title>Remeras Sublimadas</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="icon" href="../img/favicon.ico">
 	<link rel="stylesheet" href="../css/style.css">
+
 </head>
-<body>
-    <div class="grid-contenedor">
-	 
-     
-        <header class="item1 relleno">
-        <a href="../index.html">
-        <img class="logo" src="../img/logo.jpg" alt="remerasublimadas">
-        </header> 
-           
-    	 		
-         <nav class="item2 relleno">
-            <ul>
-                <li><a href="cursosdesublimacion.html">cursos de sublimacion</a></li>
-            </ul>
-            <ul>
-                <li><a href="promociones.html">promociones</a></li>
-            </ul>
-            <ul>
-                <li><a href="nosotros.html">nosotros</a></li>
-            </ul>
-            <ul>
-                <li><a href="contacto.html">contacto</a></li>
-            </ul>
-        </nav>
-     
-    	<div class="item3 seccion1">
-		<main >
-			<h1 class="titulo">contacto</h1>
-			<section class="contacto2">
-				<form action="envio.php" method="post" id="contacto">
-				<fieldset>
-					<label for="nombre">Nombre</label>
-					<br>
-					<input type="text" name="nombre" id="nombre">
-					<br>
-					<label for="email">Email</label>
-					<br>
-					<input type="email" name="email" id="email">
-				</fieldset>
-				<fieldset>
-					<legend>Info de venta</legend>
-					<label for="remeras">remeras</label>
-					<input type="checkbox" value="remeras" id="remeras">
-					<br>
-					<label for="remeras manga larga">remeras manga larga</label>
-					<input type="checkbox" value="remeras manga larga" id="remeras manga larga">
-				</fieldset>
-				<fieldset>
-					<legend>Entrega</legend>
-					<label for="local">Retira en el local</label>
-					<input type="radio" id="local" value="local" name="entrega">
-					<br>
-					<label for="envio">Envío a domicilio</label>
-					<input type="radio" id="envio" value="envio" name="entrega">
-					<br>
-					<label for="localidad">Localidad</label>
-					<select name="localidad" id="localidad">
-						<option value="caba">CABA</option>
-						<option value="bsas">Buenos Aires</option>
-						<option value="interior">Interior del país...</option>
-					</select>
-				</fieldset>
-				<label for="mensaje">Mensaje</label>
-				<br>
-				<textarea cols="30" rows="10"></textarea>
-				<br>
-				<input type="submit" value="Enviar">
-				<input type="reset" value="Cancelar">
-			</form>
-			</section>
-			</div>
-			
-	
-    	<footer class="item4">
+	<body>
+		
+			 <!--inicio de la nav--> 
+			 	<nav class="navbar navbar-expand-lg navbar-light colores">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="../index.html">
+		    	<img class="logo" src="../img/logo.jpg" alt=""></a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse nav "  id="navbarNavAltMarkup">
+		      <div class="navbar-nav">
+		        <a class="nav-link texto" aria-current="page" href="../index.html">inicio</a>
+		        <a class="nav-link texto" href="cursosdesublimacion.html">cursos de sublimacion</a>
+		        <a class="nav-link texto" href="promociones.html">promociones</a>
+		        <a class="nav-link texto" href="nosotros.html">nosotros</a>
+		        <a class="nav-link texto" href="contacto.html">contacto</a>
+		      </div>
+		    </div>
+		  </div>
+		</nav>
+		<!--final de la nav-->
+		<h1 class="minititulo ">contacto</h1>
+		<!--inicio de formulario-->
+		<form class="colun g-3 ">
+				  <div class="col-md-6">
+				    <label for="email" class="form-label texto-izquierdo">Email</label>
+				    <input type="email" class="form-control" id="email">
+				  </div>
+				  <div class="col-md-6">
+				    <label for="contraseña" class="form-label texto-izquierdo">Contraseña</label>
+				    <input type="password" class="form-control" id="contraseña">
+				  </div>
+				  <div class="col-6">
+				    <label for="nombre" class="form-label texto-izquierdo">nombre</label>
+				    <input type="text" class="form-control" id="nombre">
+				  </div>
+				  <div class="col-6">
+				    <label for="apellido" class="form-label texto-izquierdo">apellido</label>
+				    <input type="text" class="form-control" id="apellido">
+				  </div>
+				  <div class="col-md-6">
+				    <label for="provincia" class="form-label texto-izquierdo">provincia</label>
+				    <input type="text" class="form-control" id="provincia">
+				  </div>
+				  <div class="col-md-6">
+				    <label for="ciudad" class="form-label texto-izquierdo">ciudad</label>
+				    <input type="text" class="form-control" id="ciudad">
+				 </div>
+				<div class="d-grid gap-2 d-md-block">
+				  <button class="btn btn-orange" type="button">enviar</button>
+				  <button class="btn btn-orange" type="button">cancelar</button>
+				</div>
+				</form>
+		<!--inicio de formulario-->	
+		<footer class="colores">
             <h3>siguenos en nuestras redes </h3>
 			<a href="https://www.facebook.com/remerassublimadas26" target="_blank">
 			<img src="../img/facebook.png" alt="seguinos en facebook">  
     	</footer>
- </div>
-</body>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>	
+</body>		
 </html>				

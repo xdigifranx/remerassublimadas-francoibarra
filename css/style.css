@@ -11,6 +11,8 @@ body{
 	margin-top: 30px;
 	justify-content: center;
 }
+
+
 .logo{
 	width: 50%;
 	height: 30%;
@@ -47,15 +49,11 @@ h5{
 .nav{
 	justify-content: right;
 }
-.contacto{
-	width:50%;
-	padding: 30px;
-}
 .centro{
-	align-content: center;
+ 	align-content: center;
 }
 .colores{
-	background-image: linear-gradient(to right, orange, #FFE690 );
+	background-image: linear-gradient(to right,#FFE690 , orange);
 }
 .texto-izquierdo{
  	text-align: left;
@@ -63,7 +61,7 @@ h5{
  	font-size: 15px;
  	font-weight: bold;
  	color: black;
- 	padding: 21px;
+ 	padding: 20px;
 }
 .minititulo{
 	text-align: left;
@@ -72,7 +70,6 @@ h5{
  	font-weight: bold;
  	color: black;
  	text-decoration: underline;
- 	padding: 20px;
  }
 .cursos{
 	color: white;
@@ -86,25 +83,30 @@ h5{
 	align-content: center;
 	
 }
-.contacto{
-		background: rgba(0, 0, 0, 0.5); 
-	padding: 10px 20px;
-	margin-top: 50px;
-	box-sizing: border-box;
-	border-radius: 20px;
-	justify-content: center;
-}
-.section2{
-	
-	
-	
-
-}
 
 .img{
 	width: 20vw;
 	height: 50vh;
 	justify-content: center;
+}
+.mapa{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+.contacto2{
+	background: rgba(0, 0, 0, 0.5); 
+	padding: 10px 20px;
+	margin-top: 50px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	width: 25%;
+}
+.btn-orange{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #FFE690;
+
 }
 
 @media screen and (max-width:1024px){
@@ -112,18 +114,6 @@ h5{
 	width: 300px;
 	height: 450px;
 }
-
-
-
-
-@media screen and (max-width: 768px){
-
-
-
-}
-
-
-
 
 @media screen and (max-width:480px){
 
@@ -136,15 +126,20 @@ h5{
 .img{
 
 	width: 100vw;
-	height: vh;
 	
 }
 
-
-
-@media screen and (max-width:320px){
-
-
-
-
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:400px; 
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 }
