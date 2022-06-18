@@ -9,7 +9,14 @@ body{
 	padding: 20px;
 	margin: auto;
 	margin-top: 30px;
-	justify-content: center;
+	align-content: center;
+}
+.img2{
+	width: 20vw;
+	height: 50vh;
+	padding: 20px;
+	margin: auto;
+	margin-top: 30px;
 }
 
 
@@ -84,11 +91,7 @@ h5{
 	
 }
 
-.img{
-	width: 20vw;
-	height: 50vh;
-	justify-content: center;
-}
+
 .mapa{
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -109,10 +112,16 @@ h5{
 
 }
 
+
 @media screen and (max-width:1024px){
 	.img{
 	width: 300px;
 	height: 450px;
+}
+.img2{
+	width: 300px;
+	height: 450px;
+}
 }
 @media screen and (max-width:768){
 .video-responsive {
@@ -143,6 +152,21 @@ h5{
 	width: 100vw;
 	
 }
-
+.img2{
+	width: 100vw
+}
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:400px; 
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 }
