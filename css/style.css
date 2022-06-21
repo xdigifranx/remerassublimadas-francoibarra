@@ -122,6 +122,9 @@ h5{
 	width: 300px;
 	height: 450px;
 }
+.nav{
+	justify-content: center;
+}
 }
 @media screen and (max-width:768){
 .video-responsive {
@@ -137,6 +140,7 @@ h5{
     width:100%;
     position:absolute;
 }
+
 }
 
 @media screen and (max-width:480px){
