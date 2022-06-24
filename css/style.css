@@ -1,12 +1,11 @@
 body{
 	background-image: url("../img/fondo.jpg");
-	font-family: "calibri"
+	font-family: "calibri";
 }
 .grid-contenedor{
 	display: grid;
 	grid-template-areas: 
-	"item1 item2 item3"
-	;
+	"item1 item2 item3";
 }
 .item1{
 	grid-area: item1;
@@ -16,6 +15,15 @@ body{
 }
 .item3{
 	grid-area: item3;
+}
+footer{
+	text-align: center;	
+}
+iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 .caja{
 	background-color: #FFE690;
@@ -111,12 +119,9 @@ h5{
 	align-content: center;
 	
 }
-
-
 .mapa{
 	margin-top: 20px;
 	margin-bottom: 20px;
-
 }
 .contacto2{
 	background: rgba(0, 0, 0, 0.5); 
