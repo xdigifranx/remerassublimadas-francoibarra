@@ -4,16 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm     run build-css\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xdigifranx/repo-bootstrap.git"
   },
-  "author": "",
+  "author": "franco",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xdigifranx/repo-bootstrap/issues"
   },
-  "homepage": "https://github.com/xdigifranx/repo-bootstrap#readme"
+  "homepage": "https://github.com/xdigifranx/repo-bootstrap#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  }
 }

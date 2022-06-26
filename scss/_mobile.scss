@@ -1,0 +1,58 @@
+//breakpoint//
+@media screen and (max-width: 1024px) {
+    .grid-contenedor {
+      display: grid;
+      grid-template-areas: "item1" "item2" "item3";
+    }
+  
+    .img, .img2 {
+      width: 300px;
+      height: 450px;
+    }
+  
+    .nav {
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 768) {
+    .video-responsive {
+      overflow: hidden;
+      padding-bottom: 400px;
+      position: relative;
+      height: 0;
+  
+      iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .mapa {
+      width: 100%;
+    }
+  
+    .contacalo, .img, .img2 {
+      width: 100vw;
+    }
+  
+    .video-responsive {
+      overflow: hidden;
+      padding-bottom: 400px;
+      position: relative;
+      height: 0;
+  
+      iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+      }
+    }
+  }

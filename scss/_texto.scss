@@ -1,0 +1,54 @@
+//fons// 
+$mainfont: "calibri";
+$secondfont: "arial";
+
+body{
+	font-family: $mainfont;
+}
+h5 {
+    font-weight: bold;
+    color: black;
+  }
+  
+.texto {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+.parrafo {
+    margin-left: 10px;
+    font-family: secondfont;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
+  
+.titulo {
+    margin-left: 10px;
+    margin-top: 20px;
+    text-decoration: underline;
+    padding: 10px;
+    font-family: $mainfont;
+}
+  
+.texto-izquierdo {
+    text-align: left;
+    font-family: $secondfont;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+.minititulo {
+    text-align: left;
+    font-family: $secondfont;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+ }
+.cursos{
+	color: white;
+}  

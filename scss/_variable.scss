@@ -1,0 +1,35 @@
+//variable para colores//
+$maincolor: orange;
+$secondcolor: #FFE690;
+
+.colores{
+    background-image: linear-gradient(to right, $secondcolor, $maincolor );
+  }
+.table{
+    width: 40%;
+    background-color: $maincolor;
+    text-align: left;
+    border-style: solid;
+    border-color: #FFC600;
+    align-content: center;
+}
+.caja{
+    background-color:  $secondcolor;
+    border-style: solid;
+    border-color: $maincolor;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin: 0px auto;
+}
+.bg-orange{
+	background-color: $maincolor;
+	border: 3px $secondcolor solid;
+}
+.btn-orange{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: $secondcolor;
+
+}
+
+  

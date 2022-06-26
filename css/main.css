@@ -1,211 +1,172 @@
-body{
-	background-image: url("../img/fondo.jpg");
-	font-family: "calibri";
-}
-.grid-contenedor{
-	display: grid;
-	grid-template-areas: 
-	"item1 item2 item3";
-}
-.item1{
-	grid-area: item1;
-}
-.item2{
-	grid-area: item2;
-}
-.item3{
-	grid-area: item3;
-}
-footer{
-	text-align: center;	
-}
-iframe{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+body {
+  background-image: url("../img/fondo.jpg"); }
 
-}
-.caja{
-	background-color: #FFE690;
-	border-style: solid;
-	border-color: orange;
-	margin-top: 10px;
-	padding-bottom: 20px;
-	margin: 0px auto;
-}
-.img{
-	display: flex;
-	width: 20vw;
-	height: 50vh;
-	padding: 20px;
-	margin: auto;
-	margin-top: 30px;
-	align-content: center;
-}
-.img2{
-	width: 20vw;
-	height: 50vh;
-	padding: 20px;
-	margin: auto;
-	margin-top: 30px;
-}
-.logo{
-	width: 50%;
-	height: 30%;
-}
-h5{
-	font-weight: bold;
-	color: black;
-}
-.texto{
-	text-align: center;
-	margin-top: 15px;
-	font-size: 20px;
-	font-weight: bold;
-}
-.parrafo{
-	margin-left: 10px;
-	font-family: arial;
-	font-weight: bold;
-	color: #fff;
-	text-align: center;
-	
-}
-.titulo{
-	margin-left: 10px;
-	margin-top: 20px;
-	text-decoration: underline;
-	padding: 10px;
-	font-family: roboto;
-}
-.bg-orange{
-	background-color: orange;
-	border: 3px #FFE690 solid;
-}
-.nav{
-	justify-content: right;
-}
-.centro{
- 	align-content: center;
-}
-.colores{
-	background-image: linear-gradient(to right,#FFE690 , orange);
-}
-.texto-izquierdo{
- 	text-align: left;
- 	font-family: arial;
- 	font-size: 15px;
- 	font-weight: bold;
- 	color: black;
- 	padding: 20px;
-}
-.minititulo{
-	text-align: left;
- 	font-family: arial;
- 	font-size: 20px;
- 	font-weight: bold;
- 	color: black;
- 	text-decoration: underline;
- }
-.cursos{
-	color: white;
-}
-.table{
-	width:40%;
-	background-color: #FFE690;
-	text-align: left;
-	border-style: solid;
-	border-color: #FFC600;
-	align-content: center;
-	
-}
-.mapa{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.contacto2{
-	background: rgba(0, 0, 0, 0.5); 
-	padding: 10px 20px;
-	margin-top: 50px;
-	box-sizing: border-box;
-	border-radius: 20px;
-	width: 25%;
-}
-.btn-orange{
-	margin-top: 20px;
-	margin-bottom: 20px;
-	background-color: #FFE690;
+.grid-contenedor {
+  display: grid;
+  grid-template-areas: "item1 item2 item3"; }
 
-}
+.item1 {
+  grid-area: item1; }
 
+.item2 {
+  grid-area: item2; }
 
-@media screen and (max-width:1024px){
-.grid-contenedor{
-	display: grid;
-	grid-template-areas: 
-	"item1"
-	"item2"
-	"item3"
-	;
-}
-	
-.img{
-	width: 300px;
-	height: 450px;
-}
-.img2{
-	width: 300px;
-	height: 450px;
-}
-.nav{
-	justify-content: center;
-}
-}
-@media screen and (max-width:768){
-.video-responsive {
-    overflow:hidden;
-    padding-bottom:400px; 
-    position:relative;
-    height:0;
-}
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+.item3 {
+  grid-area: item3; }
 
-}
+footer {
+  text-align: center; }
 
-@media screen and (max-width:480px){
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
-.mapa{ width: 100%;
+.img {
+  display: flex;
+  width: 20vw;
+  height: 50vh;
+  padding: 20px;
+  margin: auto;
+  margin-top: 30px;
+  align-content: center; }
 
-}
-.contacalo{
-	width: 100vw;
-}
-.img{
+.img2 {
+  width: 20vw;
+  height: 50vh;
+  padding: 20px;
+  margin: auto;
+  margin-top: 30px; }
 
-	width: 100vw;
-	
-}
-.img2{
-	width: 100vw
-}
-.video-responsive {
-    overflow:hidden;
-    padding-bottom:400px; 
-    position:relative;
-    height:0;
-}
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+.logo {
+  width: 50%;
+  height: 30%; }
 
-}
+.mapa {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.contacto2 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 25%; }
+
+.nav {
+  justify-content: right; }
+
+body {
+  font-family: "calibri"; }
+
+h5 {
+  font-weight: bold;
+  color: black; }
+
+.texto {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold; }
+
+.parrafo {
+  margin-left: 10px;
+  font-family: secondfont;
+  font-weight: bold;
+  color: #fff;
+  text-align: center; }
+
+.titulo {
+  margin-left: 10px;
+  margin-top: 20px;
+  text-decoration: underline;
+  padding: 10px;
+  font-family: "calibri"; }
+
+.texto-izquierdo {
+  text-align: left;
+  font-family: "arial";
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  padding: 20px; }
+
+.minititulo {
+  text-align: left;
+  font-family: "arial";
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline; }
+
+.cursos {
+  color: white; }
+
+.colores {
+  background-image: linear-gradient(to right, #FFE690, orange); }
+
+.table {
+  width: 40%;
+  background-color: orange;
+  text-align: left;
+  border-style: solid;
+  border-color: #FFC600;
+  align-content: center; }
+
+.caja {
+  background-color: #FFE690;
+  border-style: solid;
+  border-color: orange;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  margin: 0px auto; }
+
+.bg-orange {
+  background-color: orange;
+  border: 3px #FFE690 solid; }
+
+.btn-orange {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #FFE690; }
+
+@media screen and (max-width: 1024px) {
+  .grid-contenedor {
+    display: grid;
+    grid-template-areas: "item1" "item2" "item3"; }
+  .img, .img2 {
+    width: 300px;
+    height: 450px; }
+  .nav {
+    justify-content: center; } }
+
+@media screen and (max-width: 768) {
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 400px;
+    position: relative;
+    height: 0; }
+    .video-responsive iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute; } }
+
+@media screen and (max-width: 480px) {
+  .mapa {
+    width: 100%; }
+  .contacalo, .img, .img2 {
+    width: 100vw; }
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 400px;
+    position: relative;
+    height: 0; }
+    .video-responsive iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute; } }

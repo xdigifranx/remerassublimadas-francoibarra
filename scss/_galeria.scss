@@ -1,0 +1,66 @@
+//galerias//
+body{
+	background-image: url("../img/fondo.jpg");
+}
+.grid-contenedor {
+    display: grid;
+    grid-template-areas: "item1 item2 item3";
+}
+  
+.item1 {
+    grid-area: item1;
+}
+  
+.item2 {
+    grid-area: item2;
+}
+  
+.item3 {
+    grid-area: item3;
+}
+  
+footer {
+    text-align: center;
+}
+  
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.img {
+    display: flex;
+    width: 20vw;
+    height: 50vh;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    align-content: center;
+  }
+  
+.img2 {
+    width: 20vw;
+    height: 50vh;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+  
+.logo {
+    width: 50%;
+    height: 30%;
+}
+.mapa {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contacto2{
+	background: rgba(0, 0, 0, 0.5); 
+	padding: 10px 20px;
+	margin-top: 50px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	width: 25%;
+}
+  
