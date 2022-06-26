@@ -1,7 +1,5 @@
 //galerias//
-body{
-	background-image: url("../img/fondo.jpg");
-}
+
 .grid-contenedor {
     display: grid;
     grid-template-areas: "item1 item2 item3";
@@ -28,6 +26,10 @@ iframe {
     margin-left: auto;
     margin-right: auto;
 }
+.nav {
+    justify-content: right;
+}
+  
   
 .img {
     display: flex;
