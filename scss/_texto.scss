@@ -4,6 +4,8 @@ $secondfont: "arial";
 
 body{
 	font-family: $mainfont;
+    font-weight: bold;
+    color: black;
     background-image: url("../img/fondo.jpg");
 }
 h5 {

@@ -56,6 +56,8 @@ iframe {
 
 body {
   font-family: "calibri";
+  font-weight: bold;
+  color: black;
   background-image: url("../img/fondo.jpg"); }
 
 h5 {
