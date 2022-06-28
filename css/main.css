@@ -47,12 +47,15 @@ iframe {
   margin-bottom: 20px; }
 
 .contacto2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   margin-top: 50px;
   box-sizing: border-box;
   border-radius: 20px;
-  width: 25%; }
+  width: 50%; }
 
 body {
   font-family: "calibri";
