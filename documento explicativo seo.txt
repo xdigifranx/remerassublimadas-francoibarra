@@ -1,0 +1,34 @@
+﻿En el archivo index.html sumé el SEO con las siguientes características:
+Título:en la etiqueta title agregue “Venta De Remeras Sublimadas y Cursos Para Aprender A Sublimar”
+Descripción:en la etiqueta meta name description agregue “Realizamos un Sublimado de Calidad de Remeras y Buzos. Cotizamos pedidos Por Mayor Para Negocios y Empresas! Envíanos tu consulta. Remeras y Buzos Personalizados.”
+Palabras clave: en la etiqueta meta name keywords agregue 
+"Venta de remeras, sublimación ,cursos de sublimacion, remeras personalizadas"
+Encabezado: en el encabezado del h1 utilicé el texto “REMERAS PERSONALIZADAS”
+
+
+En el archivo promociones.html sumé el SEO con las siguientes características:
+Título:en la etiqueta title agregue “Venta de remeras por mayor para sublimar”
+Descripción:en la etiqueta meta name description agregue "REMERA MANGA CORTA MODAL.         
+- Material: Modal 70% poliéster y 30% algodón.         
+- Tela spun premium, hilos de poliéster de fibra cortada.         
+- Corte recto de adulto, manga corta y cuello redondo.         
+- Remeras ideales para sublimar, gracias a su porcentaje de poliéster que permite que el producto final sea intervenido por la técnica de sublimación, para poder transferir a la misma fotos, imágenes, logos, dibujos, sin límite de color."
+Encabezado: en el encabezado del h1 utilicé el texto “promociones”
+
+
+En el archivo nosotros.html sumé el SEO con las siguientes características:
+Título:en la etiqueta title agregue “Empresa de impresiones e indumentaria “
+Descripción:en la etiqueta meta name description agregue “somos una empresa de impresión digital con más de 12 años de experiencia en el sector.          abarcamos proyectos de impresión de gran formato y de todo tipo por lo que contamos con una amplia experiencia en impresión digital y gestión de proyectos integrales.”
+Encabezado: en el encabezado del h1 utilicé el texto “nosotros”
+
+
+En el archivo cursosdesublimacion.html sumé el SEO con las siguientes características:
+Título:en la etiqueta title agregue “cursos de sublimacion y estampado de indumentaria”
+Descripción:en la etiqueta meta name description agregue “Si quieres ingresar al mundo de la Sublimación, en esta sección encontrarás Videos instructivos para sublimar nuestros productos,  como así también un Curso de Sublimación Completo y Gratuito para principiantes e interesados en adquirir los conocimientos necesarios para poder sublimar sus propios productos.”
+Encabezado: en el encabezado del h1 utilicé el texto “Objetivos del curso”
+
+
+En el archivo contacto.html sumé el SEO con las siguientes características:
+Título:en la etiqueta title agregue “Venta De Remeras Sublimadas y Cursos Para Aprender A Sublimar-Contacto para ofrecer nuestros servicios”
+Descripción:en la etiqueta meta name description agregue “contáctese con nosotros para venta y cursos de sublimacion”
+Encabezado: en el encabezado del h1 utilicé el texto “contacto”
