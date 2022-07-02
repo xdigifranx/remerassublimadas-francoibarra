@@ -22,21 +22,16 @@ iframe {
 .nav {
   justify-content: right; }
 
-.img {
-  display: flex;
-  width: 20vw;
-  height: 50vh;
-  padding: 20px;
-  margin: auto;
-  margin-top: 30px;
-  align-content: center; }
-
-.img2 {
+.img2, .img {
   width: 20vw;
   height: 50vh;
   padding: 20px;
   margin: auto;
   margin-top: 30px; }
+
+.img {
+  display: flex;
+  align-content: center; }
 
 .logo {
   width: 50%;
@@ -114,7 +109,7 @@ h5 {
   background-color: orange;
   text-align: left;
   border-style: solid;
-  border-color: #FFC600;
+  border-color: #FFE690;
   align-content: center; }
 
 .caja {
@@ -138,7 +133,7 @@ h5 {
   .grid-contenedor {
     display: grid;
     grid-template-areas: "item1" "item2" "item3"; }
-  .img, .img2 {
+  .img, .img2, .img {
     width: 300px;
     height: 450px; }
   .nav {
@@ -160,7 +155,7 @@ h5 {
 @media screen and (max-width: 480px) {
   .mapa {
     width: 100%; }
-  .contacalo, .img, .img2 {
+  .contacalo, .img, .img2, .img {
     width: 100vw; }
   .video-responsive {
     overflow: hidden;

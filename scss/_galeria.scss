@@ -1,5 +1,10 @@
 //galerias//
+//aplicando mixin//
 
+@mixin tamanio($ancho, $alto) {
+    width: $ancho;
+    height: $alto;    
+}
 
 .grid-contenedor {
     display: grid;
@@ -30,29 +35,21 @@ iframe {
 .nav {
     justify-content: right;
 }
-  
-  
-.img {
-    display: flex;
-    width: 20vw;
-    height: 50vh;
-    padding: 20px;
-    margin: auto;
-    margin-top: 30px;
-    align-content: center;
-  }
-  
+//aplico extend//
+
 .img2 {
-    width: 20vw;
-    height: 50vh;
+    @include tamanio(20vw,50vh);
     padding: 20px;
     margin: auto;
     margin-top: 30px;
+}   
+.img {
+    @extend .img2;
+    display: flex;
+    align-content: center;
 }
-  
 .logo {
-    width: 50%;
-    height: 30%;
+    @include tamanio(50%,30% )
 }
 .mapa {
     margin-top: 20px;

@@ -1,34 +1,37 @@
 //variable para colores//
-$maincolor: orange;
-$secondcolor: #FFE690;
+//aplicando map-get//
+$estilo: (
+    naranja: orange,
+    secondcolor: #FFE690
+);
 
 .colores{
-    background-image: linear-gradient(to right, $secondcolor, $maincolor );
+    background-image: linear-gradient(to right, map-get($estilo , secondcolor ), map-get($estilo , naranja ) );
   }
 .table{
     width: 40%;
-    background-color: $maincolor;
+    background-color: map-get($estilo , naranja );
     text-align: left;
     border-style: solid;
-    border-color: #FFC600;
+    border-color: map-get($estilo , secondcolor );
     align-content: center;
 }
 .caja{
-    background-color:  $secondcolor;
+    background-color:  map-get($estilo , secondcolor );
     border-style: solid;
-    border-color: $maincolor;
+    border-color: map-get($estilo , naranja );
     margin-top: 10px;
     padding-bottom: 20px;
     margin: 0px auto;
 }
 .bg-orange{
-	background-color: $maincolor;
-	border: 3px $secondcolor solid;
+	background-color:map-get($estilo , naranja );
+	border: 3px map-get($estilo , secondcolor ) solid;
 }
 .btn-orange{
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-color: $secondcolor;
+	background-color: map-get($estilo , secondcolor );
 
 }
 
