@@ -1,6 +1,6 @@
 .grid-contenedor {
   display: grid;
-  grid-template-areas: "item1 item2 item3"; }
+  grid-template-areas: "item1" "item2" "item3"; }
 
 .item1 {
   grid-area: item1; }
@@ -11,18 +11,25 @@
 .item3 {
   grid-area: item3; }
 
+.flex-contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+
 footer {
   text-align: center; }
 
 iframe {
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 10px; }
 
 .nav {
   justify-content: right; }
 
-.img2, .img {
+.img2, .img, .img3 {
   width: 20vw;
   height: 50vh;
   padding: 20px;
@@ -45,6 +52,7 @@ iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   margin-top: 50px;
@@ -98,8 +106,18 @@ h5 {
   color: black;
   text-decoration: underline; }
 
+.galeri {
+  text-align: center;
+  font-family: "arial";
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+  margin: 15px; }
+
 .cursos {
-  color: white; }
+  color: white;
+  text-align: center; }
 
 .colores {
   background-image: linear-gradient(to right, #FFE690, orange); }
@@ -110,7 +128,9 @@ h5 {
   text-align: left;
   border-style: solid;
   border-color: #FFE690;
-  align-content: center; }
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 .caja {
   background-color: #FFE690;
@@ -132,12 +152,24 @@ h5 {
 @media screen and (max-width: 1024px) {
   .grid-contenedor {
     display: grid;
-    grid-template-areas: "item1" "item2" "item3"; }
-  .img, .img2, .img {
+    grid-template-areas: "item1"  "item2" "item3"; }
+  .img, .img2, .img, .img3, .img3 {
     width: 300px;
     height: 450px; }
   .nav {
-    justify-content: center; } }
+    justify-content: center; }
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 400px;
+    position: relative;
+    height: 0; }
+    .video-responsive iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      margin: 10px; } }
 
 @media screen and (max-width: 768) {
   .video-responsive {
@@ -150,21 +182,11 @@ h5 {
       top: 0;
       height: 100%;
       width: 100%;
-      position: absolute; } }
+      position: absolute;
+      margin-bottom: 10px; } }
 
 @media screen and (max-width: 480px) {
   .mapa {
     width: 100%; }
-  .contacalo, .img, .img2, .img {
-    width: 100vw; }
-  .video-responsive {
-    overflow: hidden;
-    padding-bottom: 400px;
-    position: relative;
-    height: 0; }
-    .video-responsive iframe {
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      position: absolute; } }
+  .contacto2, .img, .img2, .img, .img3 {
+    width: 100vw; } }

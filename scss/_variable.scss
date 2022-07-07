@@ -15,6 +15,8 @@ $estilo: (
     border-style: solid;
     border-color: map-get($estilo , secondcolor );
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .caja{
     background-color:  map-get($estilo , secondcolor );
